@@ -1,0 +1,40 @@
+body
+{
+    margin: 5px;
+}
+h4
+{
+    text-align: left;
+}
+h1{
+
+    color:rgb(73, 70, 70);
+    text-align: center;
+    
+}
+h3
+{
+    text-align: center;
+}
+p
+{
+    text-align: left;
+}
+hr
+{
+    align-items: center;
+    border-style: dashed none none none;
+}
+.container td:hover {
+    background-color: #08ebd0;
+    color: #403E10;
+    font-weight: bold;
+    
+    box-shadow: #317365 -1px 1px, #317365 -2px 2px, #317365 -3px 3px, #317365 -4px 4px, #317365 -5px 5px, #317365 -6px 6px;
+    transform: translate3d(6px, -6px, 0);
+    
+    transition-delay: 0s;
+      transition-duration: 0.4s;
+      transition-property: all;
+    transition-timing-function: line;
+  }
